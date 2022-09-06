@@ -7,27 +7,36 @@
 	padding: 1rem;
 	border-bottom: 1px solid #ccc;
 }
+
 .navbar .nav-item a {
 	color: #212529;
 }
+
 .nav-item {
 	margin: 0 10px;
 }
+
 .navbar-expand-lg .navbar-nav .nav-link {
 	padding: 10px 25px;
 	font-weight: bold;
 }
+
 .navbar .nav-item .btn {
 	color: #fff;
 	background-color: #f03e3e;
 	border: 1px solid transparent;
 	border-radius: 0;
 }
-.nav-link.btn.btn-primary:hover, #search-form button:hover, .list-group-item a:hover {
+
+.nav-link.btn.btn-primary:hover,
+#search-form button:hover,
+.list-group-item a:hover,
+#form-box button:hover {
 	background-color: #fff;
 	color: #f03e3e;
 	border-color: #f03e3e;
 }
+
 #navbarNav {
 	display: flex;
 	justify-content: end;
@@ -47,102 +56,150 @@
 }
 
 #main-title {
-    padding: 30px 0;
-    font-size: 3rem;
-}   
+	padding: 30px 0;
+	font-size: 3rem;
+}
+
 #main-subtitle {
-    font-size: 1rem;
-    padding-bottom: 80px;
+	font-size: 1rem;
+	padding-bottom: 80px;
 }
 
 /* form */
 
 #search-form {
-    padding: 30px 100px;
-    display: flex;
+	padding: 30px 100px;
+	display: flex;
 }
 
-#search-from .col-md-10, #search-form .col-md-2 {
-    padding: 0;
+#search-from .col-md-10,
+#search-form .col-md-2 {
+	padding: 0;
 }
 
-#search-form input, #search-form button {
-    width: 100%;
-    border-radius: 0;
-    height: 50px;
-    font-size: 18px;
+#search-form input,
+#search-form button {
+	width: 100%;
+	border-radius: 0;
+	height: 50px;
+	font-size: 18px;
 }
 
 #search-form button {
-    color: #fff;
-    background-color: #f03e3e;
-    border: 1px solid transparent;
+	color: #fff;
+	background-color: #f03e3e;
+	border: 1px solid transparent;
 }
 
 /* lista */
 
 #jobs-container {
-    padding: 0 100px;
-    padding-bottom: 50px;
+	padding: 0 100px;
+	padding-bottom: 50px;
 }
-
 
 #job-list .list-group-item {
-    margin-bottom: 8px;
-    border: 1px solid #ccc;
-    padding: 15px 80px;
-    color: #212529;
-    height: 120px;
+	margin-bottom: 8px;
+	border: 1px solid #ccc;
+	padding: 15px 80px;
+	color: #212529;
+	height: 120px;
 }
 
-#job-list .list-group-item p{
-    font-size: 14px;
-    margin-bottom: 5px;
+#job-list .list-group-item p {
+	font-size: 14px;
+	margin-bottom: 5px;
 }
 
 #job-list .list-group-item.new-job {
-    border: none;
-    background-color: #fff7cc;
+	border: none;
+	background-color: #fff7cc;
 }
 
 #job-list-title {
-    margin-bottom: 35px;
+	margin-bottom: 35px;
 }
 
 .list-group-item img {
-    width: 80px;
-    border: 1px solid #212529;
-    border-radius: 50%;
-    background-color: #fff;
-    position: absolute;
-    left: -40px;
-    top: calc(50% - 40px);
+	width: 80px;
+	border: 1px solid #212529;
+	border-radius: 50%;
+	background-color: #fff;
+	position: absolute;
+	left: -40px;
+	top: calc(50% - 40px);
 }
 
 .list-group-item a {
-    position: absolute;
-    right: 20px;
-    top: 35px;
-    height: 50px;
-    line-height: 35px;
-    background-color: #f03e3e;
-    border: 1px solid transparent;
-    border-radius: 0;
-    color: #fff;
+	position: absolute;
+	right: 20px;
+	top: 35px;
+	height: 50px;
+	line-height: 35px;
+	background-color: #f03e3e;
+	border: 1px solid transparent;
+	border-radius: 0;
+	color: #fff;
 }
 
 .new-job-label {
-    background-color: #ffd500;
-    color: #4D5154;
-    text-transform: uppercase;
-    font-weight: bold;
-    padding: 5px 10px;
-    position: absolute;
-    right: 250px;
-    top: 40px;
-    display: none;
+	background-color: #ffd500;
+	color: #4d5154;
+	text-transform: uppercase;
+	font-weight: bold;
+	padding: 5px 10px;
+	position: absolute;
+	right: 250px;
+	top: 40px;
+	display: none;
 }
 
 .new-job .new-job-label {
-    display: block;
+	display: block;
+}
+
+/* add page */
+.form-group {
+	margin-top: 15px;
+}
+
+#add-form-container {
+	margin-top: 100px;
+}
+
+#form-box {
+	padding: 50px;
+	box-shadow: 0 1px 5px rgba(0, 0, 0, 0.15);
+	border-radius: 4px;
+	background-color: #fff;
+}
+
+#add-form-container h1 {
+	margin-bottom: 20px;
+}
+
+#add-form-container h2 {
+	color: #f03e3e;
+	font-weight: bold;
+	font-size: 24px;
+	margin-bottom: 30px;
+}
+
+#add-form-container form label {
+	font-weight: bold;
+}
+
+#add-form-container form input,
+#add-form-container form textarea {
+	border: 2px solid #ccc;
+	background-color: #f8f9fa;
+}
+
+#form-box button {
+	height: 50px;
+	width: 200px;
+	background-color: #f03e3e;
+	border: 1px solid transparent;
+	border: 0;
+	margin-top: 20px;
 }
